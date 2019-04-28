@@ -1,0 +1,368 @@
+/* This is the division with class*/
+.head {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-gap: 10px;
+    height: 15vh;
+    margin: auto;
+}
+ul li.active{
+    color: white;
+    outline:3px violet;
+    text-shadow: 3px 3px purple;
+    background: white;
+}
+ul li:hover{
+    color: white;
+    outline:3px violet;
+    text-shadow: 3px 3px purple;
+    background: white;
+}
+.my-logo {
+    background-image: url(../images/mylogo.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+}
+.title{
+    background-image: url(../images/title.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: center;
+    left: 35%;
+    right: 25%;
+}
+.my-2logo {
+    background-image: url(../images/mylogo.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+}
+
+li {
+    color: purple;
+    font-size: 35px;
+    font-family: 
+}
+a {
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    padding: 10px;
+    list-style: none;
+}
+.svt {
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    grid-gap: 1px;
+    height: 20vh;
+    margin-top: 20px;
+}
+.s1 {
+    background-image: url(../images/s1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: center;
+}
+.s2 {
+    background-image: url(../images/s2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: center;
+}
+
+.s3 {
+    background-image: url(../images/s3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: center;
+}
+
+.s4 {
+    background-image: url(../images/s4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: center;
+}
+
+.s5 {
+    background-image: url(../images/s5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: center;
+}
+
+.s6 {
+    background-image: url(../images/s6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: center;
+}
+
+.s7 {
+    background-image: url(../images/s7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: center;
+}
+
+.s8 {
+    background-image: url(../images/s8.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: center;
+}
+
+.s9 {
+    background-image: url(../images/s9.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: center;
+}
+
+.s10 {
+    background-image: url(../images/s10.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: center;
+}
+
+.s11 {
+    background-image: url(../images/s11.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: center;
+}
+
+.s12 {
+    background-image: url(../images/s12.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: center;
+}
+
+.s13 {
+    background-image: url(../images/s13.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: center;
+}
+.intro {
+    height: 20vh;
+    padding: 10px;
+    background-color: #CCD7D8;
+    text-align: center;
+    font-size: 35px;
+    color: purple;
+    border: 10px solid violet;
+}
+/*This is the 1st list of merchandise*/
+.list1{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    height:70vh;
+}
+.o1{
+    background-image: url(../images/05.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain ;
+}
+.o2{
+    background-image: url(../images/o9.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain ;
+}
+
+.o3{
+    background-image: url(../images/07.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain ;
+}
+
+.o4{
+    background-image: url(../images/o9-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain ;
+}
+.list2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    height:70vh;
+}
+.o5{
+    background-image: url(../images/1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain ;
+}
+.o6{
+    background-image: url(../images/2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain ;
+}
+.o7{
+    background-image: url(../images/3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain ;
+}
+.o8{
+    background-image: url(../images/4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain ;
+}
+.list3{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    height:70vh;
+}
+.o9{
+    background-image: url(../images/5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain ;
+}
+.o10{
+    background-image: url(../images/6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain ;
+}
+.o11{
+    background-image: url(../images/7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain ;
+}
+.o12{
+    background-image: url(../images/o8.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain ;
+}
+.list4{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    height:70vh;
+}
+.o13{
+    background-image: url(../images/9.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain ;
+}
+.o14{
+    background-image: url(../images/10.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain ;
+}
+.o15{
+    background-image: url(../images/11.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain ;
+}
+.o16{
+    background-image: url(../images/13.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain ;
+}
+.list5{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    height:70vh;
+}
+.o17{
+    background-image: url(../images/o46.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain ;
+}
+.o18{
+    background-image: url(../images/o47.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain ;
+}
+.o19{
+    background-image: url(../images/o48.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain ;
+}
+.o20{
+    background-image: url(../images/o49.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain ;
+}
+body{
+    background: #F9E9FF;
+    height: 150vh;
+}
+.more {
+    height: 10vh;
+    padding: 20px;
+    color: white;
+    background: white;
+    text-align: center;
+    margin-top: 100vh;
+}
+.see {
+    text-decoration: none;
+    height: 15vh;
+    padding: 5px;
+    background:#CCD7D8;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    color: purple;
+}
+.i {
+
+}
+.footer {
+    margin-top: 30px;
+    height: 10vh;
+    padding: 20px;
+    font-size: 20px;
+    color: purple;
+    text-align: center;
+    background:#CCD7D8;
+}
